@@ -24,4 +24,6 @@ How to run program?
 5.In the corresponding option enter the desired value and an output will be displayed.
 
 6.After that, the program will prompt you to run it again, to check other functionalities. If you want to run it again then Enter Y or y else enter N or n to terminate program.
+<br>
 
+<strong>For complete clarity on project please read user manual.</strong>
