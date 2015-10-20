@@ -27,3 +27,5 @@ How to run program?
 <br>
 
 <strong>For complete clarity on project please read user manual.</strong>
+
+<strong>Important Note</strong>: To know how to create header file in C go through this link: https://goo.gl/kVTrdj 
