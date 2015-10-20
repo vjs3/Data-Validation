@@ -1,0 +1,65 @@
+Data Validation
+
+How to run program?
+===============================================================================
+
+1.For linux users go to the directory of Data Validation folder and copy its path, now type "cd path name" in the terminal to enter in to the specified directory.
+
+2.To compile the program type "gcc -o main main.c EmailValidation.c DateFormat.c MobileNumber.c IntegerValidation.c NumberDivisibilty.c ", without quotes.
+
+3.To run the program type "./main", without quotes.
+
+4.Now choose one of the options from the given menu.
+
+5.In the corresponding option enter the desired value and an output will be displayed.
+
+6.After that, the program will prompt you to run it again, to check other functionalities. If you want to run it again then Enter Y or y else enter N or n to terminate program.
+
+------------------------------------------------------------------------------
+
+File Description 
+===============================================================================
+
+validation.h : Header file which contains function calls for all the functions created, which can be used inside this library.
+
+main.c : File which shows the use of validation.h header file by providing various functionality the for user.
+
+IntegerValidation.c : It contains the function which detects weather the input integer is valid or not. If it is not, then it helps the  user to enter a valid data. 
+
+DateFormat.c : It contains function to validate the format of the daste along with range of days, months and year. Also this function takes care of whether a year is leap or not and proceed accordingly.
+
+EmailValidation.c : It contains the function to validate whether an entered email address is valid or not.
+
+NumberDivisibilty.c : It contains a function to validate whether a given dividend can be divided from divisor or not. If yes then the calculated result will also be displayed.
+
+MobileNumber.c : It contains the function which helps in determining if the entered mobile number is valid or not.
+
+ConsistencyCheck.c : It contains function which helps in determining that entered data is consistent or not.
+
+validation.h : Header file which contains function calls for all the functions created, which can be used inside this library.
+
+------------------------------------------------------------------------------
+
+Checks Performed
+===============================================================================
+1.Data Check: In Integer Validation.
+
+2.Range Check: In Date Format Check
+
+3.Length Check: In Mobile Number Validation
+
+4.Fromat Chekc: In Date Format Check and in Email Validation
+
+5.Consistency Check: In Consistensy Check
+
+6.Check digits: In Mobile Number Validation
+
+7.Allowed character checks: In Email Validation and in Integer Validation
+
+8.Logic Check: In Number Divisibility
+
+------------------------------------------------------------------------------
+Important Note : During Input everywhere gets is used twice to resolve buffering issues.
+
+
+Developed by Vishwajeet Srivastava
